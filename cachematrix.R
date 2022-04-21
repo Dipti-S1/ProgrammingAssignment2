@@ -22,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## If if x is a matrix, just y<-solve(x) will get the inverse matrix of x
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
